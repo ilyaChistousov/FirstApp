@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/homeBSD"
+            android:icon="@drawable/home"
+            android:title="@string/home"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/shopBSD"
+            android:icon="@drawable/shop"
+            android:title="@string/shop"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/favoritesBSD"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorites"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/contactBSD"
+            android:icon="@drawable/phone"
+            android:title="@string/contact"
+            app:showAsAction="ifRoom"/>
+
+    </group>
+
+    <item android:title="@string/main">
+        <menu>
+            <item
+                android:id="@+id/videoBSD"
+                android:icon="@drawable/video"
+                android:title="@string/video"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/settingBSD"
+                android:icon="@drawable/settings"
+                android:title="@string/settings"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+
+</menu>
